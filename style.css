@@ -1,0 +1,81 @@
+body {
+  margin-left: 10%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  background-image: url(./img/fondo.jpg);
+  ;
+}
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    img {
+        height: 600px;
+        margin-left: 30%;
+    }
+    .color {
+        color: black;
+    }
+    button {
+        color: black;
+    }
+    .logo, .inicio {
+      box-shadow: 10px 5px 5px black;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      margin: 5%;
+    }
+    
+    .inicio {
+      margin: auto;
+      margin: 5%;
+    }
+   .colorNav {
+     background-color: #D7BC9E;
+   }
+  .tituloBaner {
+    color: black;
+  }
+  .descripcionBaner{
+    color: black;
+  }
+  #myCarousel {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+.ciruclo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.cuadrado {
+  width: 500px;
+  height: 500px;
+  margin-left: -0%;
+}
+footer {
+  width: 100%;
+}
+.insta {
+  width: 40px;
+  height: 40px;
+}
+.pago {
+  margin-left: -5%;
+  width: 150px;
+  height: 150px;
+}
