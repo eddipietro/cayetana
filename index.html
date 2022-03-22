@@ -15,7 +15,7 @@
 
     
 <header>
-   <nav class="navbar navbar-expand-md navbar-dark fixed-top colorNav">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top colorNav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> <img class="logo" src="./img/logo.jpg" width="80px"
           height="80px" alt="logo de inicio"></a>
@@ -25,24 +25,23 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">NOSOTROS</a>
+            <a class="nav-link active" aria-current="page" href="./nav/nosotros.html">NOSOTROS</a>
           </li>
           <li class="nav-item">
-            <a  class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+            <a  class="nav-link active" aria-current="page" href="#contacto">CONTACTO</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link active dropdown-toggle" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown06">
-              <li><a class="dropdown-item" href="#">Botellas</a></li>
-              <li><a class="dropdown-item" href="#">Cocina</a></li>
-              <li><a class="dropdown-item" href="#">Cuidado Personal</a></li>
-              <li><a class="dropdown-item" href="#">Electrónica</a></li>
-              <li><a class="dropdown-item" href="#">Infantil</a></li>
-              <li><a class="dropdown-item" href="#">Librería</a></li>
-              <li><a class="dropdown-item" href="#">Mates</a></li>
-              <li><a class="dropdown-item" href="#">Tazas</a></li>
-              <li><a class="dropdown-item" href="#">Varios</a></li>
-              <li><a class="dropdown-item" href="#">Velas</a></li>
+              <li><a class="dropdown-item" href="#botellas">Botellas</a></li>
+              <li><a class="dropdown-item" href="#cocina">Cocina</a></li>
+              <li><a class="dropdown-item" href="#personal">Cuidado Personal</a></li>
+              <li><a class="dropdown-item" href="#electronica">Electrónica</a></li>
+              <li><a class="dropdown-item" href="#infantil">Infantil</a></li>
+              <li><a class="dropdown-item" href="#libreria">Librería</a></li>
+              <li><a class="dropdown-item" href="#mate">Mates</a></li>
+              <li><a class="dropdown-item" href="#tazas">Tazas</a></li>
+              <li><a class="dropdown-item" href="#vela">Velas</a></li>
             </ul>
           </li>
         </ul>
@@ -126,26 +125,72 @@
   <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
+    <div class="row seccionCirculo">
       <div class="col-lg-4">
-        <img class="ciruclo" src="./img/velas/velaCopon.jpg" alt="">
+        <img class="ciruclo" id="vela" src="./img/velas/velaCopon.jpg" alt="">
         <h2>Velas</h2>
         <p>Hermosas y aromática, quedarás bien regalandolas o decorando tu casa.</p>
         <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="ciruclo" src="./img/libreria/anotadores.jpg" alt="">      
-        <h2>Anotadores</h2>
+        <img class="ciruclo" id="libreria" src="./img/libreria/anotadores.jpg" alt="">      
+        <h2>Librería</h2>
         <p>Que la hora de estudiar sea más divertida. Hacé que tus anotaciones y apuntes siempre brillen .</p>
         <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="ciruclo" src="./img/cuidado_personal/inciensos.jpg" alt="">
-        <h2>Inciensos</h2>
+        <img class="ciruclo" id="personal" src="./img/cuidado_personal/inciensos.jpg" alt="">
+        <h2>Cuidado Personal</h2>
         <p>Aromatizá y limpiá las energías todos tus hambientes con la mejor calidad.</p>
         <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+
+    <div class="row seccionCirculo">
+      <div class="col-lg-4">
+        <img class="ciruclo" id="electronica" src="./img/electronica/laparaLed1.jpg" alt="">
+        <h2>Electrónica</h2>
+        <p>Iluminando tu hogar con estas luces.</p>
+        <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="ciruclo" id="botellas" src="./img/Botellas/BotellaVidrio1.jpg" alt="">      
+        <h2>Botellas</h2>
+        <p>Mantenete siempre hidratado con las comodas y bellas opciones que te brindamos.</p>
+        <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="ciruclo" id="tazas" src="./img/tazas/tazaMugg1.jpg" alt="">
+        <h2>Tazas</h2>
+        <p>Te invitamos a ver cuantos diseños hermosos tenemos para vos.</p>
+        <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+    <div class="row seccionCirculo">
+      <div class="col-lg-4">
+        <img class="ciruclo" id="mate" src="./img/mates/mat.jpg" alt="">
+        <h2>Mates</h2>
+        <p>Que nuestras tradiciones siempre estén presentes con la más alta calidad.</p>
+        <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="ciruclo" id="cocina" src="./img/cocina/dispenser.jpg" alt="">      
+        <h2>Cocina</h2>
+        <p>Decorá tu cocina y date un gusto visual.</p>
+        <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-lg-4">
+        <img class="ciruclo" id="infantil" src="./img/infantil/Botella1.jpg" alt="">
+        <h2>Infantil</h2>
+        <p>La parte más importante de la familia merece lo mejor, por eso tenés que mirar esta sección.</p>
+        <p><a class="btn btn-secondary" href="#">Mirá toda la sección &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    
+    
+
   </center>
 <center>
     <!-- START THE FEATURETTES -->
@@ -233,7 +278,7 @@
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>Contacto</h5>
+        <h5 id="contacto" >Contacto</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-dark" href="#">aldanagrilanc@hotmail.com</a></li>
           <li><a class="link-dark" href="#">1123931674</a></li>

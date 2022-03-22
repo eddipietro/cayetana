@@ -79,3 +79,21 @@ footer {
   width: 150px;
   height: 150px;
 }
+.seccionCirculo {
+  margin-top: 2%;
+}
+
+
+
+/***************
+SECCION NOSOTROS
+****************/
+.nosotros {
+  margin-left: 10%;
+  margin-top: 10%;
+} 
+.infoNos {
+  margin-left: 2%;
+  margin-top: 11%;
+  color: black;
+}
