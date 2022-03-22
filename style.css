@@ -134,7 +134,11 @@ SMARTPHONE
 ******************/
 
 @media (min-width: 320px) and (max-width: 480px) {
-.pampa {
+body {
+  margin-left: 1.5%;
+}
+
+  .pampa {
   margin-top: 15%;
 }
 }
