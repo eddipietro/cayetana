@@ -1,3 +1,13 @@
+
+.fondoBody {
+  
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  background-image: url(./img/fondo3.jpg);
+}
 body {
 
   display: flex;
@@ -6,7 +16,7 @@ body {
   background-size: cover;
   height: 100%;
   background-image: url(./img/fondo.jpg);
-  ;
+  
 }
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -20,6 +30,7 @@ body {
       .bd-placeholder-img-lg {
         font-size: 3.5rem;
       }
+      
     }
 
     img {
@@ -45,13 +56,23 @@ body {
       margin: 5%;
     }
    .colorNav {
-     background-color: #D7BC9E;
+    background-color: #D7BC9E;
    }
   .tituloBaner {
-    color: black;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
   }
   .descripcionBaner{
-    color: black;
+    color: #000;
+    font-size: 20px;
+    text-shadow: -2px -2px 1px #fff, 2px 2px 1px #fff, -2px 2px 1px #fff, 2px -2px 1px #fff;
+    }
+  
+    .tituloPampa {
+      color: #fff;
+    font-size: 20px;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    }
   }
   #myCarousel {
     margin-top: 5%;
@@ -82,6 +103,14 @@ footer {
 .seccionCirculo {
   margin-top: 2%;
 }
+.pampa {
+  margin-top: 5%;
+  width: 450px;
+  height: 450px;
+}
+.tituloSecundario {
+  margin-top: 25%;
+}
 
 
 
@@ -96,4 +125,16 @@ SECCION NOSOTROS
   margin-left: 2%;
   margin-top: 11%;
   color: black;
+}
+
+
+
+/******************
+SMARTPHONE
+******************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.pampa {
+  margin-top: 15%;
+}
 }
