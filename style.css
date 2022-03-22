@@ -104,7 +104,7 @@ footer {
   height: 450px;
 }
 .tituloSecundario {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 
@@ -130,7 +130,7 @@ SMARTPHONE
 
 @media (min-width: 320px) and (max-width: 480px) {
 body {
-  margin-left: 1.5%;
+  margin-left: 10%;
 }
 .tituloSecundario {
 margin-top: 25%;
