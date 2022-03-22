@@ -109,7 +109,7 @@ footer {
   height: 450px;
 }
 .tituloSecundario {
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 
@@ -137,7 +137,9 @@ SMARTPHONE
 body {
   margin-left: 1.5%;
 }
-
+.tituloSecundario {
+margin-top: 25%;
+}
   .pampa {
   margin-top: 15%;
 }
